@@ -1,5 +1,5 @@
-import InvitationTemplate from "@/components/invitation-template";
+import InvitationTemplate from '@/components/invitation-template';
 
 export default function Home() {
-  return <InvitationTemplate name={"Quý khách"} />;
+    return <InvitationTemplate name={'Quý khách'} />;
 }
