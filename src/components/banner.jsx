@@ -12,7 +12,16 @@ const images = [
 ];
 
 const Banner = () => {
-    return <div></div>;
+    const [currentIndex, setCurrentIndex] = React.useState(0);
+
+    return (
+        <div className="overflow-hidden">
+            <div
+                className="h-[80vh] w-full bg-cover bg-center duration-500"
+                style={{ backgroundImage: `url(${images[currentIndex].link})` }}
+            />
+        </div>
+    );
 };
 
 export default Banner;

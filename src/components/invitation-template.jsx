@@ -1,8 +1,5 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import Heart from './Heart';
 import Header from './header';
 import Navigation from './navigation';
 import Banner from './banner';
