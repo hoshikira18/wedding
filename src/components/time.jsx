@@ -1,4 +1,5 @@
 import React from 'react';
+import CountDown from './countdown';
 
 const Time = () => {
     // Create the array for the days of the week and days of the month
@@ -28,17 +29,17 @@ const Time = () => {
         <div
             className="px-40 py-32"
             style={{
-                backgroundImage: `url('https://weddingba.iwedding.info/templates/template15/images/bg.png')`,
+                backgroundImage: `url('/bg.png')`,
             }}
         >
             <div className="mx-auto grid max-w-screen-xl grid-cols-2 items-center justify-center space-x-10">
                 {/* Left Column: Save the Date Section */}
-                <div className="h-full w-full bg-white p-12">
+                <div className="relative h-full w-full bg-white p-12">
                     <div className="flex h-full flex-col items-center justify-center space-y-8 border-4 border-[#cdc2c2] px-5 py-5">
                         <span className="font-great_vibes text-5xl">
                             Save the Date
                         </span>
-                        <div className="font-comfortaa flex flex-col items-center justify-center space-y-3 text-center">
+                        <div className="flex flex-col items-center justify-center space-y-3 text-center font-comfortaa">
                             <span className="text-base text-black/70">
                                 For the wedding of
                             </span>
@@ -59,7 +60,7 @@ const Time = () => {
                 {/* Right Column: Calendar Section */}
                 <div className="h-full w-full bg-white p-12">
                     <div className="flex flex-col items-center justify-center space-y-8 border-4 border-[#cdc2c2] px-5 py-5">
-                        <table className="font-comfortaa w-full">
+                        <table className="w-full font-comfortaa">
                             <caption className="pb-3 text-lg font-bold">
                                 NOVEMBER / 2024
                             </caption>
@@ -92,6 +93,7 @@ const Time = () => {
                     </div>
                 </div>
             </div>
+            <CountDown targetTime={new Date('2024-11-10T23:59:59')} />
         </div>
     );
 };
