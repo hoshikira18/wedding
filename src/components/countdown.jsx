@@ -1,5 +1,4 @@
 import { useCountdown } from '@/app/hook/useCountdown';
-import React, { useEffect, useState } from 'react';
 
 const CountDown = ({ targetTime }) => {
     const [days, hours, minutes, seconds] = useCountdown(targetTime);

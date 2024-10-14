@@ -38,7 +38,7 @@ const Banner = () => {
             <div className="relative">
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-10 bg-black/30" />
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-20 flex flex-col items-center justify-center space-y-5">
-                    <div className="font-great_vibes flex items-center justify-center space-x-10 text-7xl font-medium text-white/90">
+                    <div className="flex items-center justify-center space-x-10 font-great_vibes text-7xl font-medium text-white/90">
                         <span>Văn Vui</span>
                         <div className="text-[#c89d9c]">
                             <Heart size={50} />

@@ -4,6 +4,7 @@ import Header from './header';
 import Navigation from './navigation';
 import Banner from './banner';
 import Time from './time';
+import Couple from './couple';
 
 const InvitationTemplate = ({ name }) => {
     return (
@@ -12,6 +13,7 @@ const InvitationTemplate = ({ name }) => {
             <Navigation />
             <Banner />
             <Time />
+            <Couple />
         </div>
     );
 };
