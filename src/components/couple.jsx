@@ -2,7 +2,7 @@ import React from 'react';
 
 const Couple = () => {
     return (
-        <div className="mx-auto max-w-screen-xl space-y-10 px-20 py-40">
+        <div className="mx-auto max-w-screen-xl space-y-10 px-40 py-40">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div
                     style={{

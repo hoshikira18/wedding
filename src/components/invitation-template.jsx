@@ -5,6 +5,7 @@ import Navigation from './navigation';
 import Banner from './banner';
 import Time from './time';
 import Couple from './couple';
+import WeddingPhotos from './wedding-photos';
 
 const InvitationTemplate = ({ name }) => {
     return (
@@ -14,6 +15,7 @@ const InvitationTemplate = ({ name }) => {
             <Banner />
             <Time />
             <Couple />
+            <WeddingPhotos />
         </div>
     );
 };
