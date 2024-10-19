@@ -1,3 +1,5 @@
+import { MailCheck } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react';
 import { Grid, Masonry } from 'react-visual-grid';
 import 'react-visual-grid/dist/react-visual-grid.css';
@@ -90,6 +92,13 @@ const WeddingPhotos = () => {
                     ></div>
                 ))}
             </div>
+            <Link
+                href=""
+                className="mx-auto inline-flex space-x-2 bg-pink p-4 font-comfortaa text-base font-semibold text-white hover:bg-pink/80"
+            >
+                <MailCheck />
+                <span>Xác nhận tham dự</span>
+            </Link>
         </div>
     );
 };
