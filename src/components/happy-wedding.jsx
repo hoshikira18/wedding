@@ -38,11 +38,7 @@ const HappyWedding = () => {
                     className="col-span-12 border p-2 outline-none"
                     placeholder="Nhập lời chúc của bạn"
                 ></textarea>
-                <select
-                    tabindex="4"
-                    name="form_item5"
-                    className="col-span-12 border p-2 outline-none"
-                >
+                <select className="col-span-12 border p-2 outline-none">
                     <option value="">Lời chúc gợi ý sẵn</option>
                     <option value="Chúc mừng hạnh phúc! Chúc hai bạn trăm năm hạnh phúc!">
                         Chúc mừng hạnh phúc! Chúc hai bạn trăm năm hạnh phúc!

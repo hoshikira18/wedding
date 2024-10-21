@@ -23,14 +23,14 @@ const Couple = () => {
             <div className="grid grid-cols-2 bg-[#f9f9f9]">
                 <div>
                     <img
-                        src="https://cdn.biihappy.com/ziiweb/default/website/3b48bc6125ce6d186297a3e90a11085e.jpeg"
+                        src="/images/127A0333.jpg"
                         alt="chu-re-image"
-                        className="h-full w-full object-cover"
+                        className="aspect-square w-full object-cover object-top"
                     />
                 </div>
                 <div className="flex flex-col items-start justify-center space-y-4 p-20">
                     <p className="font-great_vibes text-4xl font-medium">
-                        Nguyễn Văn Vui
+                        Hà Hải
                     </p>
                     <p className="font-comfortaa tracking-wide">
                         Là bác sĩ nha khoa hiện đang công tác tại một phòng khám
@@ -44,7 +44,7 @@ const Couple = () => {
                 </div>
                 <div className="flex flex-col items-start justify-center space-y-4 p-20">
                     <p className="font-great_vibes text-4xl font-medium">
-                        Nguyễn Văn Vui
+                        Phượng Phượng
                     </p>
                     <p className="font-comfortaa tracking-wide">
                         Là bác sĩ nha khoa hiện đang công tác tại một phòng khám
@@ -58,9 +58,9 @@ const Couple = () => {
                 </div>
                 <div>
                     <img
-                        src="https://cdn.biihappy.com/ziiweb/default/website/59b631f29bfb9f7cd20437d27ddbe4db.jpeg"
+                        src="/images/127A0422.jpg"
                         alt="chu-re-image"
-                        className="h-full w-full object-cover"
+                        className="aspect-square w-full object-cover object-top"
                     />
                 </div>
             </div>

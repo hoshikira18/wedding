@@ -44,7 +44,7 @@ const Time = () => {
                                 For the wedding of
                             </span>
                             <span className="text-2xl font-bold text-black/90">
-                                Văn Vui & Ngọc Vẻ
+                                Hà Hải & P. Phượng
                             </span>
                             <p>
                                 Một lời chúc của bạn chắc chắn sẽ làm cho đám

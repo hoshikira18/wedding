@@ -3,11 +3,15 @@ import React from 'react';
 
 const images = [
     {
-        link: 'https://cdn.biihappy.com/ziiweb/default/template/6174ef83a62963738e0a367c/cde33ed0f326a6a1dce7cecfd64a2892.jpg',
+        link: '/images/127A9768.jpg',
         alt: 'banner-image',
     },
     {
-        link: 'https://cdn.biihappy.com/ziiweb/default/template/6174ef83a62963738e0a367c/c3d27a123d944f20a89f69d7d40a4bb0.jpg',
+        link: '/images/127A9943.jpg',
+        alt: 'banner-image',
+    },
+    {
+        link: '/images/127A9950.jpg',
         alt: 'banner-image',
     },
 ];
@@ -38,12 +42,12 @@ const Banner = () => {
             <div className="relative">
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-10 bg-black/30" />
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-20 flex flex-col items-center justify-center space-y-5">
-                    <div className="flex items-center justify-center space-x-10 font-great_vibes text-7xl font-medium text-white/90">
-                        <span>Văn Vui</span>
+                    <div className="flex translate-x-10 items-center justify-center space-x-10 font-great_vibes text-7xl font-medium text-white/90">
+                        <span>Hà Hải</span>
                         <div className="text-[#c89d9c]">
                             <Heart size={50} />
                         </div>
-                        <span>Ngọc Vẻ</span>
+                        <span>Phượng Phượng</span>
                     </div>
                     <div className="flex items-center justify-center space-x-4 text-white/90">
                         <div className="h-[1px] w-10 bg-white/80"></div>

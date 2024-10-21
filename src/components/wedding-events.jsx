@@ -35,11 +35,16 @@ const WeddingEvents = () => {
     return (
         <div className="relative bg-pink/30 py-32 text-center">
             {/* Background image with filter */}
-            <div className="absolute top-0 bg-contain bg-center brightness-75 filter">
+            <div
+                className="absolute left-0 right-0 top-0 bg-contain bg-center brightness-75 filter"
+                // style={{
+                //     background: `url('https://cdn.biihappy.com/ziiweb/default/template/6174ef83a62963738e0a367c/95c640880776793781cf577ef7fbf1f8.jpg')`,
+                // }}
+            >
                 <img
                     src={`https://cdn.biihappy.com/ziiweb/default/template/6174ef83a62963738e0a367c/95c640880776793781cf577ef7fbf1f8.jpg`}
                     alt="background-image"
-                    className="w-full object-cover object-top"
+                    className="w-full"
                 />
             </div>
             {/* Content */}

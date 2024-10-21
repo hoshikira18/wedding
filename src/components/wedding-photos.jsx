@@ -6,47 +6,47 @@ import 'react-visual-grid/dist/react-visual-grid.css';
 
 const images1 = [
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A0061.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-3 row-span-3',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A0007.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-3 row-span-3',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A9870.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 row-span-2 row-start-4',
     },
     {
-        url: 'https://w.ladicdn.com/s600x550/5c728619c417ab07e5194baa/fa9faa6f-9244-4925-845d-d53f9e98198a-20240115124615-x7ch-.jpg',
+        url: '/images/127A9943.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 col-start-3 row-span-1',
     },
     {
-        url: 'https://w.ladicdn.com/s600x550/5c728619c417ab07e5194baa/fa9faa6f-9244-4925-845d-d53f9e98198a-20240115124615-x7ch-.jpg',
+        url: '/images/127A9768.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 col-start-3 row-span-1',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A9593.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 col-start-5 row-span-2 row-start-4',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A9815.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 row-span-2',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A0221.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 col-start-3 row-span-2',
     },
     {
-        url: 'https://w.ladicdn.com/s750x950/5c728619c417ab07e5194baa/c13f7535-3404-4c31-a814-571647df4bbe-20240115124611-rzi2b.jpg',
+        url: '/images/127A9713.jpg',
         alt: 'wedding-photo',
         properties: 'col-span-2 col-start-5 row-span-2',
     },
